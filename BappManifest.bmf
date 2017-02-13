@@ -1,6 +1,7 @@
 Uuid: 11e2ec6923f2497db9c18ec92492c63a
 ExtensionType: 2
 Name: Yara
+RepoName: yara
 ScreenVersion: 1.0
 SerialVersion: 2
 MinPlatformVersion: 0
