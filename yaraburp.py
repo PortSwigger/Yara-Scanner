@@ -297,6 +297,8 @@ class BurpExtender(IBurpExtender, ITab, IMessageEditorController, IContextMenuFa
             temp_folder = "/tmp"
         elif "windows" in os_name:
             temp_folder = os.environ.get("TEMP")
+        elif "posix" in os_name:
+            temp_folder = "/tmp"
             if temp_folder is None:
                 temp_folder = os.environ.get("TMP")
 
